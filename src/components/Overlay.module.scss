@@ -1,0 +1,47 @@
+.OverlayContainer {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  .ImageContainer {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    max-width: 600px;
+    max-height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    .OverlayImage {
+      padding: 32px 32px 18px 32px;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      img {
+        max-width: 100%;
+        max-height: 500px;
+        margin: 0 auto;
+      }
+      p {
+        color: white;
+      }
+    }
+    .OverlayCloseBtn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background-color: transparent;
+      border: none;
+      .CloseSvg {
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          fill: rgb(187, 187, 187);
+        }
+      }
+    }
+  }
+}

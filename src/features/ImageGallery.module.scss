@@ -1,0 +1,10 @@
+.ImageGalleryContainer {
+  margin-top: 60px;
+  .ImageGallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    justify-content: center;
+    width: auto;
+    grid-gap: 10px;
+  }
+}
