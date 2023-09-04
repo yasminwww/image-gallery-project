@@ -1,0 +1,23 @@
+.Pagination {
+  margin: 38px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  li {
+    list-style-type: none;
+    .PageButton {
+      cursor: pointer;
+      border: 1px solid #d5d5d5;
+      width: 26px;
+      height: 26px;
+      border-radius: 8px;
+      transition: filter 0.3s ease;
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+    .CurrentButton {
+      filter: brightness(0.8);
+    }
+  }
+}

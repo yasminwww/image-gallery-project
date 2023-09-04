@@ -5,7 +5,7 @@
   height: 100vh;
   top: 0;
   .ImageContainer {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(18, 18, 18, 0.954);
     position: absolute;
     max-width: 600px;
     max-height: 600px;
@@ -15,7 +15,7 @@
     transform: translate(-50%, -50%);
     border-radius: 6px;
     .OverlayImage {
-      padding: 32px 32px 18px 32px;
+      padding: 32px 32px 13px 32px;
       flex-direction: column;
       display: flex;
       justify-content: center;
@@ -27,7 +27,9 @@
         margin: 0 auto;
       }
       p {
+        margin-top: 5px;
         color: white;
+        font-weight: 700;
       }
     }
     .OverlayCloseBtn {
@@ -39,7 +41,7 @@
       .CloseSvg {
         transition: all 0.3s ease-in-out;
         &:hover {
-          fill: rgb(187, 187, 187);
+          fill: #a5a3a3;
         }
       }
     }

@@ -11,7 +11,7 @@ const Overlay = ({ selectedImage, close }) => {
         <div className={styles.ImageContainer}>
           <div className={styles.OverlayImage}>
             <img src={download_url} alt="artistic photograph" />
-            <p>Auhtor: {author}</p>
+            <p>Author: {author}</p>
           </div>
           <button
             className={styles.OverlayCloseBtn}
