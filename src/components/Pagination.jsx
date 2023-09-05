@@ -7,7 +7,6 @@ export const Pagination = ({
   clickPageNumber,
   currentPage,
 }) => {
-  console.log("currentPage: ", currentPage);
   const pageNumbers = [];
 
   for (let i = 1; i <= Math.ceil(totalImages / imagesPerPage); i++) {

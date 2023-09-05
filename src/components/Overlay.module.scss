@@ -7,7 +7,7 @@
   .ImageContainer {
     background-color: rgba(18, 18, 18, 0.954);
     position: absolute;
-    max-width: 600px;
+    width: 600px;
     max-height: 600px;
     position: fixed;
     top: 50%;
@@ -45,6 +45,22 @@
           fill: #a5a3a3;
         }
       }
+    }
+  }
+  @media screen and (max-width: 635px) {
+    .ImageContainer {
+      width: 500px;
+    }
+  }
+  @media screen and (max-width: 519px) {
+    .ImageContainer {
+      width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .ImageContainer {
+      width: 300px;
     }
   }
 }

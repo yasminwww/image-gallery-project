@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   gap: 16px;
+  flex-wrap: wrap;
   li {
     list-style-type: none;
     .PageButton {
